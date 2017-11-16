@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hieu Do - Resume
+% 7/26/2016
+%
+% Reference:
+% Debarghya Das (http://debarghyadas.com)
+
+\documentclass[]{hieudo-build}
+%\usepackage{ragged2e}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Thingom Bishal Singha}
+{\urlstyle{same}
+	\faEnvelope \href{mailto:bishalthingom@gmail.com}{ bishalthingom@gmail.com}\\
+	\faGithub \href{https://github.com/bishalthingom}{   github.com/bishalthingom}\\
+	\faLinkedinSquare \href{https://www.linkedin.com/in/bishal-thingom/}{   linkedin.com/in/bishal-thingom}
+}
+
+
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.34\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+
+\subsection{National Institute of Technology \break Karnataka, Surathkal}
+\timeplace{May 2016 | Mangalore, India\\}
+\descript{B.Tech. in Computer Engineering}
+\bold{GPA}: 7.17 / 10
+\sectionsep
+
+\subsection{Kendriya Vidyalaya, Hebbal}
+\timeplace{May 2012 | Bangalore, India\\}
+\descript{Senior School Certificate (CBSE)}
+\bold{Score}: 94.6 \%
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+% \subsection{Programming}
+\emphasis{Languages:}
+\regular{Python, C, C++, Java, C\#,\\Visual Basic, Powershell}
+\vspace{2mm}
+\emphasis{ML Libraries:}
+\regular{Keras, Tensorflow, NLTK, \\Scikit-learn, Pandas}
+\vspace{2mm}
+\emphasis{Web Development:}
+\regular{HTML5, CSS3, PHP }
+\vspace{2mm}
+\emphasis{Databases:}
+\regular{BigQuery, SQL Server}
+
+
+% \sectionsep
+% \subsection{Languages}
+% \location{Native fluency:} English, Vietnamese\\
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     HACKATHONS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Hackathons}
+% HackMIT \textbullet{} hackNY \\
+% WearHacks NY \textbullet{} Hackademics VN \\
+% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ADDITIONAL INFORMATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     AWARDS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% Dean's List\\
+% NYU PROMISE Scholarship\\
+% Shelby C. Davis Scholarship\\
+% President’s Circle Scholarship\\
+% \sectionsep
+
+\sectionsep
+\DTMsetdatestyle{mylastupdate}
+\DTMdisplaydate{\the\year}{\the\month}{\the\day}{-1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.65\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\workplace{Visa Inc.}{Aug 2016 – present}\\
+\position{Software Engineer}{Bangalore, India}
+\vspace{0.9em} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \justified{\regular{Led multiple Performance engg. projects for the Merchant and Acquirer Processing Platform, achieving a 100\% success rate in production.}}
+\item \justified{\regular{Developed toolset to automate Environment validation and correction, reducing manual effort on each run from 2 working days to 2 hours.}}
+\item \justified{\regular{Developed regression tool to generate automated reports on usage of system resources.}}
+
+\end{tightemize}
+\sectionsep
+
+\workplace{JPMorgan Chase \& Co.}{May 2015 – July 2015} \\
+\position{Technology Intern}{Bangalore, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \justified{\regular{Built an audit preparation tool to generate a checklist of tasks and predict the next audit period using relational DBMS and linear regression.}} 
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\project{Person Recognition using Smartphones’ Accelerometer Data}{\href{https://arxiv.org/pdf/1711.04689}{arXiv}}
+\extra{Under review at 24th IEEE National Conference on Communications}
+\justified{\regular{Designed a model to recognize a person using Random Forests, following feature analysis in time and frequency domains.
+Experimental results outperformed existing models with an accuracy of 96.79\% and AUC of 98.22\%.}}
+\sectionsep
+
+\project{BookSim for Multi-layered Networks}
+{\href{https://github.com/bishalthingom/booksim2-layered}{GitHub}}\\
+\justified{\regular{Modified the existing dimension ordered routing algorithm to accommodate multiple layers, and isolated the configurations for each dimension. The modified version was thus able to simulate multi-layered networks and successfully reflect the smaller latency for the inter-layer connections. }}
+\sectionsep 
+
+\project{Pokemon Type Classifiation using Transfer Learning}
+{\href{https://github.com/bishalthingom/pokemon-transferlearning}{GitHub}}\\
+\justified{\regular{Fine tuned the VGG16 Convolutional Neural Network to determine the type of a Pokemon, given its image. Using image augmentation and transfer learning on a limited dataset of 3500 images, the resultant model delivered an accuracy of 0.396. on an 18-class classification problem.  }}
+\sectionsep 
+
+\project{Similarity of Songs' Lyrics across Genres and Times}
+{\href{https://bishalthingom.wordpress.com/portfolio/clustering-how-do-lyrics-vary-across-genres-and-time/}{Wordpress} | \href{https://github.com/bishalthingom/song-clustering}{GitHub}}\\
+\justified{\regular{Tf-idf vectorization was applied on the song lyrics, and then the Euclidean distance between the vectors was calculated. Pairwise k-medoids clustering was applied on the resultant graph and the similarity of genres/decades was determined based on the clustering results.}}
+\sectionsep 
+
+\project{Circles of Parity using Hamiltonian Cycles}
+{\href{https://bishalthingom.wordpress.com/portfolio/circle-of-parity/}{Wordpress} | \href{https://github.com/bishalthingom/circle-of-parity}{GitHub}}\\
+\justified{\regular{Modified the cost-function of Held-
+Karp algorithm to the longest edge in the cycle for extracting the earliest "circle of parity" (Hailtonian cycle) in a graph representing game results in a league season. The number of circles of parity was determined using edge-disjoint Hamiltonian cycles.}}
+\sectionsep 
+
+\project{Hawkeye Visualization using graphics.h}
+{\href{https://github.com/bishalthingom/hawkeye-visualization-cpp}{GitHub}}\\
+\justified{\regular{Visualized LBW in cricket using inputs from two planes and parabolic motion for ball trajectory. Depth visualization was achieved by varying measures in x and y dimensions as a linear function of measures in z dimension.}}
+\sectionsep 
+
+\end{minipage} 
+
+\end{document}  
